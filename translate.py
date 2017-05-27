@@ -30,6 +30,7 @@ def translator():
     print "译文： ",dict_google['sentences'][0]['trans']
 
 if __name__ =='__main__':
+    print 'google_translate'
     params = sys.argv
     params_q = ''
     for param in params[1:]:
